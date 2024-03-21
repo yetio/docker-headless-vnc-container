@@ -72,6 +72,6 @@ jobs:
           push: true
           file: Dockerfile.${{ matrix.target }}
           tags: |
-            ghcr.io/consol/docker-headless-vnc-container/${{ matrix.target }}:${{ env.BRANCH_NAME }}
-            ghcr.io/consol/docker-headless-vnc-container/${{ matrix.target }}:latest
+            ghcr.io/yetio/docker-headless-vnc-container/${{ matrix.target }}:${{ env.BRANCH_NAME }}
+            ghcr.io/yetio/docker-headless-vnc-container/${{ matrix.target }}:latest
           platforms: linux/amd64,linux/arm64
