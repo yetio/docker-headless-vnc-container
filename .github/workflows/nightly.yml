@@ -68,5 +68,5 @@ jobs:
         with:
           push: true
           file: Dockerfile.${{ matrix.target }}
-          tags: ghcr.io/consol/docker-headless-vnc-container/${{ matrix.target }}:nightly
+          tags: ghcr.io/yetio/docker-headless-vnc-container/${{ matrix.target }}:nightly
           platforms: linux/amd64,linux/arm64
